@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
+    
    string nama;
    std::cout << "Masukan Nama Suspect=" << std::endl;
     std::cin >> nama;
