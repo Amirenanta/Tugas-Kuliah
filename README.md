@@ -1,3 +1,3 @@
 # Tugas-Kuliah
 untuk Tugas Kuliah Universitas Siber Asia
-by Amirullah R Majid
+by Amirullah Rizqan Majid A
