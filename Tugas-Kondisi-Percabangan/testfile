@@ -1,3 +1,109 @@
- Struktur Data dan Algoritma
+Struktur Data dan Algoritma
 
 Kelas: IT204
+
+TUGAS PERTEMUAN KE 3
+
+
+1. Conan ingin mencari anggota sindikat mafia dari Sicilia. Sindikat tersebut
+memiliki berbagai macam pangkat anggota diantaranya:
+✓ Don
+✓ Underboss
+✓ Capo
+Untuk mengekspos grup ini, dia akan membuat program yang
+menganalisa ciri-ciri seseorang berdasarkan beberapa variabel.
+Setelah menganalisa ciri-ciri tersebut,program akan mengeluarkan
+output apakah orang tersebut ciri-cirinya mirip dengan salah satu
+anggota sindikat mafia dengan pangkat yang disebutkan sebelumnya.
+Program akan menerima input sebagai berikut:
+✓ Nama (String)
+✓ Umur (Number)
+✓ Tempat Tinggal (String)
+✓ Uang Tabungan dalam dollar (Number)
+Berikut ini ciri-ciri dari masing-masing pangkat di dalam sindikat
+tersebut. Untuk dicurigai sebagai seorang anggota mafia yang memiliki
+[pangkat], orang tersebut harus memenuhi:
+Don
+-Biasanya berumur diatas 40 tahun
+-Tinggal di Nevada, New York, atau Havana
+-Tabungannya sudah dipastikan diatas 10 juta dollar
+Underboss
+-Biasanya berumur 25 - 40 tahun
+-Tinggal di New Jersey, Manhattan, atau Nevada
+-Tabungannya 1 juta dolar sampai 2 juta dolar tidak kurang tidak lebih
+Capo
+-Biasanya berumur 18 - 24 tahun
+-Tinggal di California, Detroit, atau Boston
+-Tabungannya < 1 juta dolar
+Setelah menganalisa orang tersebut, program akan mengeluarkan output:
+a. Jika dia adalah seorang anggota mafia yang memiliki [pangkat] (salah
+satu dari Don, Underboss, Capo)
+'[Nama] kemungkinan adalah seorang anggota mafia dengan
+[pangkat].'
+b. Jika orang tersebut tidak memenuhi syarat-syarat tersebut, maka
+program akan mengeluarkan output:
+'[Nama] tidak mencurigakan.
+
+
+2. Buatlah sebuah sistem penerimaan calon programmer yang akan
+menerima dua nilai ( nilai coding dan nilai interview).
+Untuk penilaain test coding skala penilaian yang diberikan dimulai dari 0
+hingga 100 dengan sistem penilaian
+✓ ketika seseorang mendapatkan nilai lebih dari 80 maka peserta
+tersebut akan mendapatkan hasil tes LOLOS,
+✓ ketika sesorang mendapatkan nilai diantara 60 hingga 80 maka
+peserta tersebut mendapatkan hasil tes DIPERTIMBANGKAN,
+✓ ketika seseorang mendapatkan nilai dibawah 60 maka peserta tersebut
+mendapatkan hasil tes GAGAL.
+Sedangkan untuk penilaian interview adalah
+✓ ketika nilai yang diberikan kepada seseorang tersebut adalah "A" atau
+"B" maka peserta tersebut dianggap LOLOS interview,
+✓ selain kedua nilai tersebut maka peserta dianggap GAGAL tes
+interview.
+Ketika calon programmer mendapatkan nilai coding LOLOS atau
+DIPERTIMBANGKAN dan juga LOLOS test interview maka tampilkanlah
+pesan "Selamat Kamu Berhasil Menjadi Calon Programmer". Jika tidak
+maka tampilkanlah pesan "Maaf Kamu Belum Berhasil Menjadi Calon
+Programmer"
+
+
+3. Sebuah klub sepak bola “PERSEGI FC” mempunyai aturan dalam
+memberikan nomor punggung bagi para pemainnya. Para pemain
+diperbolehkan mempunyai posisi lebih dari 1. Berikut adalah beberapa
+aturannya:
+a. Untuk nomor punggung genap, digunakan untuk posisi “target
+attacker”
+b. Untuk nomor punggung genap antara 50 – 100, digunakan untuk
+pemain yang “berhak dipilih menjadi capten team”
+c. Untuk nomor punggung ganjil, digunakan untuk posisi “defender”
+d. Untuk nomor punggung ganjil lebih dari 90, digunakan untuk posisi
+“Playmaker”
+e. Untuk nomor punggung ganjil kelipatan dari 3 dan 5, digunakan untuk
+posisi “keeper”
+
+
+4. Buatlah program untuk melakukan pengecekan sebuah nomor punggung
+dapat berfungsi sebagai posisi apa saja.
+Terdapat sebuah jurnal yang menuliskan teorinya bahwa olahraga dapat
+membakar kalori yang terkandung dalam tubuh manusia. Hal tersebut
+berbanding lurus dengan lama waktu yang dilakukan. Berikut ini adalah
+beberapa teori tersebut:
+✓ Olahraga lari membakar 60 kalori setiap 5 menit.
+✓ Olahraga push-up membakar 200 kalori setiap 30 menit
+✓ Olahraga plank membakar 5 kalori selama 1 menit
+Buatlah program untuk menghitung berapa jumlah kalori setelah
+melakukan aktivitas olahraga tersebut dengan ketentuan setiap orang
+boleh melakukan aktivitasnya lebih dari 1.
+
+
+5. Sebuah wahana bermain 'Disney Island' akan memberikan tarif sesuai
+dengan tinggi dan umur anak dengan ketentuan sebagai berikut:
+✓ Umur kurang dari 1 tahun: Tampilkan 'Dilarang masuk'
+✓ Umur kurang dari 3 tahun: Rp 30.000. Jika tinggi anak umur 2-3
+tahun melebih 70 cm maka tarif akan bertambah 10.000
+✓ Umur kurang dari 7 tahun: Rp 40.000. Jika tinggi anak umur 4-7
+tahun melebih 120 cm maka tarif akan bertambah 15.000
+✓ Umur kurang dari 10 tahun: Rp 50.000. Jika tinggi anak umur 8-10
+tahun melebih 150 cm maka tarif akan bertambah 20.000
+✓ Umur 10 tahun keatas: Rp 80.000
+Tampilkan tarif harga sesuai umur dan tinggi seorang anak
