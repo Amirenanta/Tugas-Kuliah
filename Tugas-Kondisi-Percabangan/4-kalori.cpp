@@ -16,7 +16,7 @@ int main(){
     int kaloriPlank = plank * 5;
     int totalKalori = kaloriLari + kaloriPushUp + kaloriPlank;
 
-    cout << "Total Kalori yang Dibakar Adalah = " << totalKalori << " Kalori" << endl;
+    std::cout << "Total Kalori yang Dibakar Adalah = " << totalKalori << " Kalori" << std::endl;
 
     cin.get();
     return 0;
