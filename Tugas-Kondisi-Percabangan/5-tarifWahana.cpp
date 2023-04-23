@@ -28,7 +28,7 @@ int main(){
             tarif += 20000;
         }
     } else {
-        tarif += 80000
+        tarif += 80000;
     }
     
     std::cout << "Tarif Wahana Untuk Anak Anda Adalah Rp." << tarif << std::endl;
