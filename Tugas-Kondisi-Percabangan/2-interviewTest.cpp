@@ -8,17 +8,11 @@ int main(){
    std::cout << "Masukan Nilai Interview =" << std::endl;
     std::cin >> nilaiInterview;
 
-    if (nilaiCoding < 60){
-        std::cout << "Maaf Kamu Belum Berhasil Menjadi Calon Programmer." << std::endl;
-    }
-    else if (!nilaiInterview == 'A' || 'B'){
-        std::cout << "Maaf Kamu Belum Berhasil Menjadi Calon Programmer." << std::endl;
-    }
-    else if (60 < nilaiCoding < 100) {
+if (nilaiCoding > 60 && (nilaiInterview == 'A' || nilaiInterview == 'B')) {
         std::cout << "Selamat Kamu Berhasil Menjadi Calon Programmer!" << std::endl;
-    } else std::cout << "Maaf Input yang Kamu Masukan Tidak Sesuai." << std::endl;
-
-
+    } else {
+        std::cout << "Maaf Kamu Belum Berhasil Menjadi Calon Programmer." << std::endl;
+    }
     cin.get();
     return 0;
 }
