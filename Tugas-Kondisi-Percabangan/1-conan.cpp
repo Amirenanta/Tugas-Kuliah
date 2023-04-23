@@ -19,10 +19,10 @@ if (nama == "Underboss" || "Don" || "Capo"){
       if ((nama == "Don") && (umur >= 40) && (tempatTinggal == "New York" || "Havana" || "Nevada") && (tabungan > 10000000)) {
         std::cout << nama << " Kemungkinan adalah seorang anggota mafia dengan [pangkat]." << std::endl;
     }
-    else if ((nama == "Underboss") && (25 <= umur <= 40) && (tempatTinggal == "New Jersey" || "Manhattan" || "Nevada") && (1000000 < tabungan < 2000000)) {
+    else if ((nama == "Underboss") && (umur >=25 && umur <= 40) && (tempatTinggal == "New Jersey" || "Manhattan" || "Nevada") && (tabungan >=1000000 && tabungan <= 2000000)) {
         std::cout << nama << " Kemungkinan adalah seorang anggota mafia dengan [pangkat]." << std::endl;
     }
-    else if ((nama == "Capo") && (18 <= umur <= 24) && (tempatTinggal == "California" || "Detroit" || "Boston") && (tabungan > 10000000)) {
+    else if ((nama == "Capo") && (umur >=18 && umur <= 24) && (tempatTinggal == "California" || "Detroit" || "Boston") && (tabungan > 10000000)) {
         std::cout << nama << " Kemungkinan adalah seorang anggota mafia dengan [pangkat]." << std::endl;
     }
     
