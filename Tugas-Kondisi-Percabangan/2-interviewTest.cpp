@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main(){
     int nilaiCoding;
    std::cout << "Masukan Nilai Coding (0 - 100) =" << std::endl;
@@ -13,6 +12,6 @@ if (nilaiCoding > 60 && nilaiCoding <= 100 && (nilaiInterview == 'A' || nilaiInt
     } else {
         std::cout << "Maaf Kamu Belum Berhasil Menjadi Calon Programmer." << std::endl;
     }
-    cin.get();
+    std::cin.get();
     return 0;
 }

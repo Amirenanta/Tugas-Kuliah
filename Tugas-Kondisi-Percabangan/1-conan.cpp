@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main(){
     
    string nama;
@@ -28,6 +27,6 @@ if (nama == "Underboss" || "Don" || "Capo"){
     
      else std::cout << nama << " Tidak Mencurigakan." << std::endl;
  }
-    cin.get();
+    std::cin.get();
     return 0;
 }

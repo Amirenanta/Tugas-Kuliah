@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main(){
 
 int nomorPunggung;
@@ -20,6 +19,6 @@ if (nomorPunggung % 2 == 0){
     std::cout << "Keeper" << std::endl;
 } 
 }
-    cin.get();
+    std::cin.get();
     return 0;
 }

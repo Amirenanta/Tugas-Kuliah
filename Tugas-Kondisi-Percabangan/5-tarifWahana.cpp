@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main(){
     int tarif = 0;
     int umur;
@@ -32,6 +31,6 @@ int main(){
     }
     
     std::cout << "Tarif Wahana Untuk Anak Anda Adalah Rp." << tarif << std::endl;
-    cin.get();
+    std::cin.get();
     return 0;
 }

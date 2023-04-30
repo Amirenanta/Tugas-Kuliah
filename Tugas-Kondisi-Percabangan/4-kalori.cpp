@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main(){
     int lari;
    std::cout << "Lama Anda Berlari (Dalam Menit) =" << std::endl;
@@ -18,6 +17,6 @@ int main(){
 
     std::cout << "Total Kalori yang Dibakar Adalah = " << totalKalori << " Kalori" << std::endl;
 
-    cin.get();
+    std::cin.get();
     return 0;
 }
