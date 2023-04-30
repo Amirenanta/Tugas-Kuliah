@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Amirullah R Majid - TUGAS PEMROGRAMAN WEB I PERTEMUAN 4</title>
-    <link rel="icon" href="./image/logoUnsia" type="image/x-icon">
+    <link rel="icon" href="./image/logoUnsia.png" type="image/x-icon">
+    <style>
+        h1, h2 {
+            font-weight: bold;
+        }
+        code {
+            color: red;
+	 	    background-color: #f7f7f7;
+ 	 	    padding: 10px;
+        }
+        hr {
+            color: gray;
+            opacity: 50%;
+        }
+      </style>
     <!--<link rel="stylesheet" href="./style.css">
         TUGAS PEMROGRAMAN WEB I
         PERTEMUAN 4 (HEADING, KOMENTAR dan TEXT FORMATTING)
@@ -13,7 +27,83 @@
   </head>
   <body>
     <main>
-        <h1>Welcome to My Website</h1>  
+        <article>
+            <header>
+                <h1>Tutorial Menggunakan Jupyter Notebook</h1>
+            </header>
+            <section>
+                <p>Tempat untuk menuliskan dan menjalankan code disebut dengan <b>Cell</b><br>Pada Jupyter Notebook terdapat 2 jenis <b>Cell</b> yaitu:</p>
+             <ol>
+                <li>Code Cell</li>
+                <li>Markdown Cell</li>
+             </ol>
+             <p>Untuk masuk kedalam mode <b>Cell</b> bisa menggunakan command <b>Y</b> dan command <b>M</b> untuk mode <b>Markdown</b></p>
+            </section>
+        </article>
+        <hr>
+        <article>
+            <header>
+                <h1>Menjalankan Cell</h1>
+            </header>
+            <section>
+                <p>Jika ingin menjalankan <b>Cell</b>, kita dapat menggunakan <b>Ctrl + Enter</b> atau dengan <b>Shift + Enter</b></p>
+            </section>
+        </article>
+        <hr>
+        <article>
+            <header>
+                <h2>Menambahkan Cell</h2>
+            </header>
+            <section>
+                <p>Jika kita kehabisan <b>Cell</b> maka dapat ditambahkan menggunakan:</p>
+                <ul>
+                    <li>command A (above) -> Menambah di atas</li>
+                    <li>command B (bellow) -> Menambah di Bawah</li>
+                </ul>
+                <p>Tetapi perlu <span style="font-weight: bold; color: red;">diperhatikan</span> jika ingin menambahkan <b>Cell</b> warna garis <b>Cell</b> disebelah kiri harus berwarna <span style="font-weight: bold; color: blue;">biru</span> yang menandakan kita masuk dalam <b>command mode</b>, selain itu ada juga yang berwarna <span style="font-weight: bold; color: green;">hijau</span> yaitu <b>edit mode</b></p>
+            </section>
+        </article>
+        <hr>
+        <article>
+            <header>
+                <h2>Shortcut</h2>
+            </header>
+            <section>
+                <ul>
+                    <li><b>Delete Cell</b> menggunakan command <b>D + D</b></li>
+                    <li><b>Cut Cell</b> Menggunakan command <b>X</b></li>
+                    <li><b>Paste Below</b> Menggunakan command <b>V</b></li>
+                    <li><b>Paste Above</b> Menggunakan command <b>Shift + V</b></li>
+                    <li><b>Undo</b> Menggunakan command <b>Z</b></li>
+                </ul>
+            </section>
+        </article>
+        <hr>
+        <article>
+            <header>
+                <h2>How to print a text</h2>
+            </header>
+            <section>
+                <ul>
+                    <li>Sebagai pengalaman coding awal, kita bisa menampilkan sesuatu lewat Phyton.</li>
+                    <li>Pada bagian ini, kita akan coba menampilkan sebuah text.</li>
+                    <li>Caranya adalah dengan menggunakan perintah print melalui syntax<br>
+                    <br>
+                    <code><span style="color: green;">print </span>"&lt;text yang ditampilkan&gt;"</code></li>
+                    <br>
+                    <li>Misalkan kita mau menampilkan kalimat Hello World!</li>
+                    <li>Kita dapat melakukannya dengan cara seperti berikut<br>
+                    <br>
+                    <code><span style="color: green;">print </span>"Hello World!"</code></li>
+                    <br>
+                    <li>Selain menggunakan tanda petik dua ("..."), kita juga dapat menggunakan tanda petik satu ('...')<br>
+                    <br>
+                    <code><span style="color: green;">print </span><span style="color: black;">(</span>'Hello world!'<span style="color: black;">)</span></code></li>
+                     <br>
+                    <li>Sekarang ayo latihan, coba print kalimat <b>Halo Dunia!</b></li>
+                </ul>
+            </section>
+        </article>
     </main>
 	<!--<script src="index.js"></script>-->
   </body>
